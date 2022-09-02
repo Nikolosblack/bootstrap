@@ -86,12 +86,7 @@ body {
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
 
-/* responsive */
-
 @media only screen and (min-width: 768px) and (max-width:991px) {
-    .carousel-caption {
-        /* bottom: 370px; */
-    }
     .carousel-caption p {
         width: 100%;
     }
@@ -106,9 +101,6 @@ body {
 @media only screen and (max-width: 767px) {
     .navbar-nav {
         text-align: center;
-    }
-    .carousel-caption {
-        /* bottom: 125px; */
     }
     .carousel-caption h5 {
         font-size: 17px;
