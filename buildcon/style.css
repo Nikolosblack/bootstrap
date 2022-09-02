@@ -1,7 +1,3 @@
-* {
-    font-family: "montserrat";
-}
-
 body {
     background-color: #f1fbff;
 }
@@ -16,8 +12,10 @@ body {
 }
 
 .carousel-caption {
-    bottom: 220px;
+    top: 50%;
+    transform: translate(0, -50%);
     z-index: 2;
+    bottom: auto;
 }
 
 .carousel-caption h5 {
