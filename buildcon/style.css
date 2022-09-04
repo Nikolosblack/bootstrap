@@ -117,4 +117,7 @@ body {
     .card {
         margin-bottom: 30px;
     }
+    .card p {
+        font-size: 16px;
+    }
 }
