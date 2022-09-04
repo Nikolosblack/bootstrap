@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Landing Page Website Using Bootstrat v5.0</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="./index.html">WpShopMart</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Questions</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Instruction</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-dark text-light p-5 text-center text-sm-start" id="home">
+        <div class="container py-5">
+            <div class="d-sm-flex align-items-center justify-content-between py-5">
+                <div class="py-5">
+                    <h1>Become a <span class="text-warning">Web Developer</span></h1>
+                    <h3 class="my-4">UI/UX Designer</h3>
+                    <p class="lead my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas harum ullam aliquam, repellendus dolor quo maiores sed incidunt rerum dicta!</p>
+                    <button class="btn btn-primary btn-lg">Contact Us</button>
+                </div>
+                <a href="#">
+                    <img class="img-fluid" src="./img/hero.svg" alt="..." width="1000">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="bg-primary text-light p-5">
+        <div class="container py-5">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <h3 class="mb-3 mb-md-0">Sing Up for Newsletter</h3>
+                <div class="input-group news-input">
+                    <input type="text" name="" id="" class="form-control" placeholder="Enter E-mail">
+                    <button class="btn btn-dark btn-lg">Discover</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5" id="services">
+        <div class="container py-5">
+            <div class="row text-center g-4">
+                <div class="col-lg">
+                    <div class="card bg-dark text-light py-5 px-4">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>  
+                            </div>
+                            <h3 class="card-title mb-3">Web Design</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, autem magnam recusandae eaque ad enim?</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light py-5 px-4">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Web Development</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, autem magnam recusandae eaque ad enim?</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light py-5 px-4">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>  
+                            </div>
+                            <h3 class="card-title mb-3">Software Design</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, autem magnam recusandae eaque ad enim?</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5" id="about">
+        <div class="container py-5">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <a href="#"><img src="./img/about.svg" alt="..." class="img-fluid"></a>
+                </div>
+                <div class="col-md py-5">
+                    <h2>Lear The Basics</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum fugiat, molestias libero aliquid corporis?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero unde nostrum atque dolor, deserunt illo!</p>
+                    <a href="#" class="btn btn-primary mt-3">Lear More<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
