@@ -31,8 +31,8 @@
                   </li>
                   <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                   <li class="nav-item"><a class="nav-link" href="#questions">Questions</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Instruction</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#instruction">Instruction</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -45,7 +45,8 @@
                     <h1>Become a <span class="text-warning">Web Developer</span></h1>
                     <h3 class="my-4">UI/UX Designer</h3>
                     <p class="lead my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas harum ullam aliquam, repellendus dolor quo maiores sed incidunt rerum dicta!</p>
-                    <button class="btn btn-primary btn-lg">Contact Us</button>
+                    <a class="btn btn-primary btn-lg" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Contact Me</a>
+
                 </div>
                 <a href="#">
                     <img class="img-fluid" src="./img/hero.svg" alt="..." width="1000">
@@ -191,7 +192,7 @@
             </div>
         </div>
     </section>
-    <section class="p-5 bg-primary" id="">
+    <section class="p-5 bg-primary" id="instruction">
         <div class="container py-5">
             <h2 class="text-center text-white">Our Instruction</h2>
             <p class="lead text-center text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatibus quos at omnis assumenda doloremque.</p>
@@ -293,11 +294,64 @@
             </div>
         </div>
     </footer>
-    <footer class="p-3 bg-dark text-white text-center">
+    <footer class="p-3 bg-dark text-white text-center position-relative">
         <div class="container">
             <p class="mb-0">Copyright &copy; 2022 Wp$hopM@rt</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1"></i></a>
         </div>
     </footer>
+    <!-- Start Modal -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalToggleLabel">Contact to me</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Fill Form and we will get back to you.</p>
+                <form action="#">
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">First Name</label>
+                        <input type="text" name="" id="first_name" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="last-name" class="col-form-label">Last Name</label>
+                        <input type="text" name="" id="last_name" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">Email</label>
+                        <input type="email" name="" id="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">Mob no</label>
+                        <input type="text" name="" id="mob_no" class="form-control">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">Hide this modal and show the first with the button below.</div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+ 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
