@@ -75,4 +75,31 @@
     .faqs_wrapper .accordion-button {
         font-size: 18px;
     }
+    .footer .footer_logo img {
+        max-width: 50%;
+    }
+}
+
+/* Width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-light-2);
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--bg-black);
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--bg-black);
 }
