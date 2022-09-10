@@ -72,4 +72,7 @@
     .free_trial .free_title {
         font-size: 24px;
     }
+    .faqs_wrapper .accordion-button {
+        font-size: 18px;
+    }
 }
