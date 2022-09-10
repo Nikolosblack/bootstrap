@@ -69,4 +69,7 @@
     .banner_wrapper .row {
         flex-direction: column-reverse;
     }
+    .free_trial .free_title {
+        font-size: 24px;
+    }
 }
